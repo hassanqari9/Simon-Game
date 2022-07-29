@@ -3,7 +3,7 @@ var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
 var score = 0;
-$(document).on("click",function() {
+$("h1").on("click",function() {
   nextSequence();
 });
 
